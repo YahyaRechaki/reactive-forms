@@ -1,0 +1,28 @@
+// body {
+//     width: 50%;
+//     margin: 0 auto;
+// }
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px 20px; /* row-gap column gap */
+}
+
+.item {
+    display: block;
+}
+
+.required {
+    border: 1px solid red;
+}
+
+button {
+    margin-top: 5px;
+}
